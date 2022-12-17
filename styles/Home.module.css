@@ -9,7 +9,7 @@
 }
 
 .main h1 {
-  margin: 4rem 0 2rem 0;
+  margin: 2rem 0;
   font-size: 2rem;
   font-weight: normal;
   text-align: center;
@@ -94,7 +94,7 @@
   padding: 1rem var(--gutter-width);
   display: flex;
   flex-direction: column;
-  margin: 1rem 0;
+  margin: 2rem 0 4rem 0;
 }
 
 .button {
