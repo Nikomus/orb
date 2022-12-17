@@ -16,9 +16,10 @@
 }
 
 .main h1 span {
-  font-size: 1.5rem;
-  font-weight: normal;
   color: #a9a69d;
+  font-size: 1.5rem;
+  font-family: 'Plovdiv', sans-serif;
+  font-weight: normal;
 }
 
 @media (min-width: 600px) {

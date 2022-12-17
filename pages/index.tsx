@@ -59,7 +59,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>
-          <span>Captain Nikomus'</span>
+          <span>Captain Nikomus&apos;s</span>
           <br />
           Seas of Thieves Orb Helper
         </h1>
@@ -74,8 +74,8 @@ export default function Home() {
             >
               twitch.tv/seaofthieves
             </a>
-            ! To help you plunder them all, use this site to keep re-opening the
-            stream in a new window.
+            ! To help you plunder them all, use this site to periodically
+            re-open the stream to get to the next raid target.
           </p>
           <img src='/orb.png' alt='The orb' />
         </div>
