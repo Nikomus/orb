@@ -78,7 +78,7 @@
 }
 
 .main a {
-  color: #a9a69d;
+  color: #8da2b7;
 }
 
 .input {
@@ -128,7 +128,14 @@
 
 .form progress::-webkit-progress-value {
   background-color: rgb(192, 192, 192);
-
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
+}
+
+.intro p {
+  margin-top: 1rem;
+}
+
+.intro span {
+  color: #ff692f;
 }

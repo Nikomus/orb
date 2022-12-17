@@ -65,18 +65,52 @@ export default function Home() {
         </h1>
 
         <div className={styles.intro}>
-          <p>
-            The Orb has returned with more festive drops at{' '}
-            <a
-              href='https://www.twitch.tv/seaofthieves'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              twitch.tv/seaofthieves
-            </a>
-            ! To help you plunder them all, use this site to periodically
-            re-open the stream to get to the next raid target.
-          </p>
+          <div>
+            <p>
+              The Orb has returned with more festive drops at{' '}
+              <a
+                href='https://www.twitch.tv/seaofthieves'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                twitch.tv/seaofthieves
+              </a>
+              ! To help you plunder them all, use this site to periodically
+              re-open the stream to get to the next raid target.
+            </p>
+            <p>
+              <span>You must enable pop-ups for this to work.</span> You can see
+              how to do this in your browser here:{' '}
+              <a
+                href='https://support.google.com/chrome/answer/95472?hl=en-GB&co=GENIE.Platform%3DDesktop#zippy=%2Callow-pop-ups-and-redirects-from-a-site'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Chrome
+              </a>{' '}
+              <a
+                href='https://www.howtogeek.com/732439/how-to-allow-pop-ups-in-microsoft-edge/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Edge
+              </a>{' '}
+              <a
+                href='https://support.apple.com/en-gb/guide/safari/sfri40696/mac#:~:text=In%20the%20Safari%20app%20on,the%20bottom%20of%20the%20list.'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Safari
+              </a>{' '}
+              <a
+                href='https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Firefox
+              </a>
+            </p>
+          </div>
           <img src='/orb.png' alt='The orb' />
         </div>
 
@@ -109,7 +143,7 @@ export default function Home() {
             <li>You need to be signed in to Twitch in this browser.</li>
             <li>
               Keep this window open in the foreground. If the tab goes to sleep
-              it will stop counting down to the next open.
+              it will stop counting down to the next stream opening.
             </li>
             <li>
               Consider reducing the video quality of the stream, the longer
