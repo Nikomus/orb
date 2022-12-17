@@ -11,7 +11,6 @@ export default function Home() {
     setcurrentTime(currentTime + 1000);
 
     if (currentTime / 1000 === minutes * 60) {
-      console.log('beep');
       setcurrentTime(0);
       window.open(
         `https://www.twitch.tv/seaofthieves`,
@@ -174,6 +173,14 @@ export default function Home() {
             @nikomus
           </a>
         </p>
+        <a
+          className={styles.github}
+          href='https://github.com/Nikomus/orb'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          GitHub
+        </a>
       </footer>
     </>
   );
