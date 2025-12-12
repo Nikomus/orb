@@ -94,11 +94,17 @@
   padding: 1rem var(--gutter-width);
   display: flex;
   flex-direction: column;
-  margin: 2rem 0 4rem 0;
+  margin: 2rem 0;
 }
 
 .button {
-  margin-top: 1rem;
+  background-color: #34da9e;
+  color: #27323f;
+  margin: 0 auto 1rem auto;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
 }
 
 .main ul {
@@ -112,7 +118,7 @@
 
 .form progress {
   height: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   width: 100%;
   fill: aqua;
   -webkit-appearance: none;
