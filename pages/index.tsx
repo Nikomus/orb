@@ -163,9 +163,7 @@ export default function Home() {
         <div>
           <h2>Tips</h2>
           <ul>
-            <li>
-              Make sure you`&apos;`re signed in to Twitch in this browser.
-            </li>
+            <li>Make sure you&apos;re signed in to Twitch in this browser.</li>
             <li>
               Keep this window open in the foreground. If the tab goes to sleep
               the timer will stop counting down to the next stream opening.
